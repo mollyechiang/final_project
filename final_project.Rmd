@@ -42,6 +42,13 @@ ny_data %>%
 Here is an intial ggplot of my data:
 ```{r}
 
+graph_one_data <- ny_data %>% 
+  select(neighbourhood_group, price) %>%
+  group_by(neighbourhood_group) 
+
+ggplot(graph_one_data, aes(x= neighbourhood_group, y = price)) +
+  geom_col()
+
 ```
 
 
