@@ -1,5 +1,5 @@
 ---
-title: "Milestone 3"
+title: "Final Project"
 author: "Molly Chiang"
 date: "10/2/2019"
 output: html_document
@@ -37,6 +37,11 @@ ny_data %>%
   head(10) %>%
   kable()
   
+```
+
+Here is an intial ggplot of my data:
+```{r}
+
 ```
 
 
